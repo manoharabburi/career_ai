@@ -1,0 +1,5 @@
+{
+  "name": "CareerAI - Intelligent Job Portal",
+  "description": "An AI-powered job portal featuring resume screening, skill gap analysis, and personalized career counseling using Gemini models.",
+  "requestFramePermissions": []
+}

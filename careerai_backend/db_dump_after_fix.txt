@@ -1,0 +1,2 @@
+=== APPLICATIONS ===
+('fc2670bb-6e00-4656-83f0-04465715861c', 'ec7b53e3-1274-4e72-814c-8d207aadffb1', '341a8b8c-eafe-4f0f-b9b9-8f2d245193b3', 'Pending')

@@ -1,0 +1,36 @@
+2025-12-17 12:23:37,191 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-12-17 12:23:37,192 INFO sqlalchemy.engine.Engine SELECT 1
+2025-12-17 12:23:37,192 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,192 INFO sqlalchemy.engine.Engine ROLLBACK
+Creating database tables...
+2025-12-17 12:23:37,244 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-12-17 12:23:37,245 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("job_skills")
+2025-12-17 12:23:37,245 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,245 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("jobs")
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("resumes")
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("resume_analyses")
+2025-12-17 12:23:37,247 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("job_applications")
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("skills")
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("career_paths")
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("interview_results")
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-12-17 12:23:37,248 INFO sqlalchemy.engine.Engine COMMIT
+Traceback (most recent call last):
+  File "C:\Users\abbur\OneDrive\Desktop\IBM\IBM\careerai_backend\init_db.py", line 196, in <module>
+    init_db()
+    ~~~~~~~^^
+  File "C:\Users\abbur\OneDrive\Desktop\IBM\IBM\careerai_backend\init_db.py", line 22, in init_db
+    print("\u2713 Tables created successfully")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>

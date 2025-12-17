@@ -1,0 +1,14 @@
+=== USERS ===
+('0d6ab628-6704-4015-818d-c2b3ec97e81a', 'admin@careerai.com', 'Admin', 'User', 'ADMIN')
+('341a8b8c-eafe-4f0f-b9b9-8f2d245193b3', 'student@example.com', 'John', 'Doe', 'STUDENT')
+('f01c57a5-314e-414f-b5e0-7559a3f71d67', 'employer@techcorp.com', 'Jane', 'Smith', 'EMPLOYER')
+('353a4de3-b28f-4ec1-8ef5-76cf128c3847', 'abburimanohar1234@gmail.com', 'Manohar', 'Abburi', 'EMPLOYER')
+
+=== JOBS ===
+('3c9377f9-66e4-4d6f-87eb-13bed2c159d5', 'Senior Software Engineer', 'f01c57a5-314e-414f-b5e0-7559a3f71d67')
+('8162ed72-27f3-4bfc-99ad-557e1614b69e', 'Full Stack Developer', 'f01c57a5-314e-414f-b5e0-7559a3f71d67')
+('3cd25c71-e397-465e-8225-f2f28e3f46cf', 'Data Science Intern', 'f01c57a5-314e-414f-b5e0-7559a3f71d67')
+('ec7b53e3-1274-4e72-814c-8d207aadffb1', 'Senior java developer', '353a4de3-b28f-4ec1-8ef5-76cf128c3847')
+
+=== APPLICATIONS ===
+('fc2670bb-6e00-4656-83f0-04465715861c', 'ec7b53e3-1274-4e72-814c-8d207aadffb1', '341a8b8c-eafe-4f0f-b9b9-8f2d245193b3', 'PENDING')
